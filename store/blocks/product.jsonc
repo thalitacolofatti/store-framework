@@ -34,7 +34,7 @@
       "product-identifier.product",
       "product-price",
       "flex-layout.row#qty-sku",
-      "flex-layout.row#ship-simu",
+      "shipping-simulator",
       "buy-button"
     ],
     "props": {
@@ -74,12 +74,6 @@
     "props": {
       "warningQuantityThreshold": 9999999
     }
-  },
-
-  "flex-layout.row#ship-simu": {
-    "children": [
-      "shipping-simulator"
-    ]
   },
 
   "buy-button": {
