@@ -1,20 +1,8 @@
 {
   "vtex.menu@2.x:submenu#major": {
-    "children":[ 
-      "vtex.menu@2.x:menu#major",
-      "flex-layout.row#major" 
-    ]
+    "children":[ "flex-layout.row#major"]
   },
-  "vtex.menu@2.x:menu#major": {
-    "children": [
-        "menu-item#refrigerators",
-        "menu-item#ovens",
-        "menu-item#washers"
-    ],
-    "props": {
-        "orientation": "vertical"
-    }
-  },
+
   "flex-layout.row#major": {
     "children": [
       "flex-layout.col#menu",
@@ -28,6 +16,17 @@
     ]
   },
 
+  "vtex.menu@2.x:menu#major": {
+    "children": [
+        "menu-item#refrigerators",
+        "menu-item#ovens",
+        "menu-item#washers"
+    ],
+    "props": {
+        "orientation": "vertical"
+    }
+  },
+
   "flex-layout.col#img": {
     "children": [
       "image#menu",
@@ -38,7 +37,7 @@
       "horizontalAlign": "right"
     }
   },
-  
+
   "image#menu": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/menu-washer.jpg",
